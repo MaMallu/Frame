@@ -31,6 +31,7 @@ abstract public class BaseTest implements AutoConstants
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		//driver.get("https://www.google.com/");
+		System.out.println(driver.getTitle());
 	}
 	
 	//postConditions
